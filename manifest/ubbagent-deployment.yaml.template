@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ubbagent-deployment
+  labels:
+    app: ubbagent
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ubbagent
+  template:
+    metadata:
+      labels:
+        app: ubbagent
+    spec:
+      containers:
+      - name: ubbagent-container
+        image: $ubbagent
+        env:
+        - name: AGENT_CONFIG_FILE
+          value: "/etc/ubbagent/config.yaml"
+        - name: AGENT_LOCAL_PORT
+          value: "4567"
+        - name: AGENT_ENCODED_KEY
+          valueFrom:
+            secretKeyRef:
+              name: $reportingSecret
+              key: reporting-key
+        - name: AGENT_CONSUMER_ID
+          valueFrom:
+            secretKeyRef:
+              name: $reportingSecret
+              key: consumer-id
+        volumeMounts:
+        - name: ubbagent-config
+          mountPath: /etc/ubbagent
+      volumes:
+      - name: ubbagent-config
+        configMap:
+          name: ubbagent-config

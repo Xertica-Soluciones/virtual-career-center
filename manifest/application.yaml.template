@@ -1,0 +1,25 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: "$name"
+  namespace: "$namespace"
+  annotations:
+    marketplace.cloud.google.com/deploy-info: '{
+      "partner_id": "xertica-vcc-public",
+      "product_id": "xertica-vcc-public.endpoints.xertica-vcc-public.cloud.goog",
+      "partner_name": "Xertica"
+    }'
+  labels:
+    app.kubernetes.io/name: "$name"
+spec:
+  descriptor:
+    type: "vcc"
+    version: "1.0.1"
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: "$name"
+  componentKinds:
+    - group: apps
+      kind: Deployment
+    - group: ""
+      kind: Service

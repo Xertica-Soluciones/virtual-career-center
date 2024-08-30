@@ -1,0 +1,47 @@
+x-google-marketplace:
+  schemaVersion: v2
+  applicationApiVersion: v1beta1
+  publishedVersion: '1.0.1'
+  publishedVersionMetadata:
+    releaseNote: >-
+      Initial release for VCC application.
+    releaseTypes:
+      - Feature
+    recommended: true
+    
+  images:
+    vcc:
+      properties:
+        vcc:
+          type: FULL
+    ubbagent:
+      properties:
+        ubbagent:
+          type: FULL
+
+properties:
+  name:
+    type: string
+    x-google-marketplace:
+      type: NAME
+  namespace:
+    type: string
+    x-google-marketplace:
+      type: NAMESPACE
+  replicas:
+    type: integer
+    title: Number of Replicas
+    default: 1
+  vcc:
+    type: string
+  ubbagent:
+    type: string
+  reportingSecret:
+    type: string
+    x-google-marketplace:
+      type: REPORTING_SECRET
+    
+required:
+  - name
+  - namespace
+  - replicas

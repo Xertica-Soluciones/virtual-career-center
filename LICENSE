@@ -1,0 +1,22 @@
+Copyright (C) 2024 Xertica.ai
+
+All rights reserved.
+
+Este repositório contém código fonte e artefatos que são de propriedade exclusiva da Xertica.ai, bem como componentes de terceiros, incluindo, mas não se limitando a, Kubernetes e Google Cloud Platform (GCP). 
+
+### Código Proprietário
+O código proprietário da Xertica.ai é protegido por direitos autorais e está sujeito às seguintes restrições:
+
+- **Cópia e Distribuição:** É proibido copiar, distribuir, modificar ou replicar qualquer parte do código proprietário sem a autorização prévia por escrito de Xertica.ai.
+- **Uso Comercial:** O uso comercial do código proprietário é estritamente proibido sem uma licença específica concedida por Xertica.ai.
+
+### Código de Terceiros
+Este repositório também inclui componentes de terceiros, que são licenciados sob as respectivas licenças open-source. Você deve seguir as condições estabelecidas por essas licenças ao usar esses componentes. As licenças aplicáveis podem incluir, mas não se limitam a, licenças para Kubernetes e serviços do Google Cloud Platform (GCP).
+
+### Limitação de Responsabilidade
+Xertica.ai não assume qualquer responsabilidade por problemas ou danos decorrentes do uso de código de terceiros incluído neste repositório. O uso desses componentes deve estar de acordo com suas respectivas licenças.
+
+### Contato
+Para mais informações, esclarecimentos sobre o uso do código ou para obter uma licença específica, entre em contato com Xertica.ai através do seguinte link: [https://www.xertica.ai/en/contact](https://www.xertica.ai/en/contact).
+
+Qualquer violação dos termos acima poderá resultar em ação legal.
