@@ -14,7 +14,7 @@ metadata:
 spec:
   descriptor:
     type: "vcc"
-    version: "1.0"
+    version: "1.0.1"
   selector:
     matchLabels:
       app.kubernetes.io/name: "$name"
