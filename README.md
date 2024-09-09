@@ -32,7 +32,7 @@ https://www.xertica.ai/en/contact
 
 Este repositório contém os arquivos necessários para fazer o deploy da aplicação no Kubernetes. Siga os passos abaixo para aplicar todos os arquivos de deployment.
 
-Para obter os arquivos de instalação, entre em contato via CLI com o suporte.
+Para obter os arquivos de instalação, entre em contato com o suporte.
 
 ## Estrutura de Arquivos
 
