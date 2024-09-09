@@ -35,7 +35,7 @@ https://www.xertica.ai/en/contact
 
 This repository contains the files needed to deploy the application to Kubernetes. Follow the steps below to apply all the deployment files.
 
-To obtain the installation files, contact support via CLI.
+To obtain the installation files, contact support.
 
 ## File Structure
 
