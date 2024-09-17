@@ -25,7 +25,7 @@ data:
     - name: servicecontrol
       servicecontrol:
         identity: gcp
-        serviceName: virtual-career-center.mp-xertica.appspot.com
+        serviceName: xertica-vcc-public.endpoints.xertica-vcc-public.cloud.goog
         consumerId: $AGENT_CONSUMER_ID
     sources:
     - name: instance_time_heartbeat
