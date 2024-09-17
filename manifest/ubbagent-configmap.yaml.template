@@ -10,7 +10,7 @@ data:
         encodedServiceAccountKey: $AGENT_ENCODED_KEY
 
     metrics:
-    - name: instance_time
+    - name: Hourly_Based_Pricing
       type: int
       endpoints:
       - name: on_disk
