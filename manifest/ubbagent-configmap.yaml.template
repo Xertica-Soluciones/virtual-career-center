@@ -10,7 +10,7 @@ data:
         encodedServiceAccountKey: $AGENT_ENCODED_KEY
 
     metrics:
-    - name: Hourly_Based_Pricing
+    - name: NumberOfCPU
       type: int
       endpoints:
       - name: on_disk
@@ -30,7 +30,7 @@ data:
     sources:
     - name: instance_time_heartbeat
       heartbeat:
-        metric: Hourly_Based_Pricing
+        metric: NumberOfCPU
         intervalSeconds: 60
         value:
           int64Value: 1
