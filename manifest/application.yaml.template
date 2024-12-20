@@ -4,6 +4,8 @@ metadata:
   name: "$name"
   namespace: "$namespace"
   annotations:
+    kubernetes-engine.cloud.google.com/icon: >-
+      data:image/png;base64,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
     marketplace.cloud.google.com/deploy-info: '{
       "partner_id": "xertica-vcc-public",
       "product_id": "xertica-vcc-public.endpoints.xertica-vcc-public.cloud.goog",
@@ -15,6 +17,74 @@ spec:
   descriptor:
     type: "vcc"
     version: "1.0.0"
+    description: >-
+      The Xertica Virtual Career Center is a cloud-based platform that uses Generative AI, Machine Learning, 
+      and Natural Language Processing to improve student employability through:
+
+      - Automatic resume generation  
+      - Intelligent job-candidate and candidate-job matching  
+      - Strategic insights into the local job market  
+
+      # Support
+      For assistance with deployment or troubleshooting, please contact Xertica support.  
+      Support inquiries should include:  
+      - **Google Cloud Project ID**  
+      - **Description of the issue** (steps to reproduce, screenshots, or logs)  
+      - **Contact information** (name, email, and phone number)  
+
+      Support is available via:  
+      - **Email**: [vcc-suporte@xertica.com](mailto:vcc-suporte@xertica.com)  
+      - **Support Portal**: [https://www.xertica.ai/en/contact](https://www.xertica.ai/en/contact)
+    maintainers:
+      - name: Xertica Support Team
+        url: https://www.xertica.ai
+    links:
+      - description: 'User Guide: Xertica Virtual Deployment'
+        url: https://github.com/Xertica/virtual-career-center
+      - description: 'Xertica Support Page'
+        url: https://www.xertica.ai/en/contact
+    notes: |-
+      # Access Your Xertica Virtual Career Center
+
+      ## Retrieve Service Endpoint
+      If a public service is enabled, get the external IP address of your application:  
+
+      ```shell
+      kubectl get service vcc-frontend-service --namespace {{ .Release.Namespace }} \
+        --output jsonpath='{.status.loadBalancer.ingress[0].ip}'
+      ```
+
+      Access the platform using the following URL:  
+      ```
+      http://<EXTERNAL-IP>
+      ```
+
+      ## Port Forwarding for Local Access
+      If the service is private (ClusterIP-only), forward the application port to your local machine:
+
+      ```shell
+      kubectl port-forward \
+        --namespace {{ .Release.Namespace }} \
+        svc/vcc-frontend-service \
+        8080:80
+      ```
+
+      Then access the application via:  
+      [http://localhost:8080](http://localhost:8080)
+
+      # Uninstallation Instructions
+      To uninstall the application and its resources, run the following commands:
+
+      ```shell
+      kubectl delete -f k8s/deployment.yaml -n {{ .Release.Namespace }}
+      kubectl delete -f k8s/service.yaml -n {{ .Release.Namespace }}
+      ```
+
+      Optionally, delete the namespace to clean up all related resources:
+
+      ```shell
+      kubectl delete namespace {{ .Release.Namespace }}
+      ```
   selector:
     matchLabels:
       app.kubernetes.io/name: "$name"
