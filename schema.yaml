@@ -1,12 +1,12 @@
 x-google-marketplace:
   schemaVersion: v2
   applicationApiVersion: v1beta1
-  publishedVersion: '1.0.0'
+  publishedVersion: '1.0.1'
   publishedVersionMetadata:
     releaseNote: >-
-      Initial release for VCC application.
+      Upgrade golang.org/x/crypto to v0.35.0.
     releaseTypes:
-      - Feature
+      - Fix
     recommended: true
     
   images:
