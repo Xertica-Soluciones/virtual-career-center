@@ -8,20 +8,14 @@ x-google-marketplace:
     releaseTypes:
       - Security
     recommended: true
-
+    
   images:
     vcc:
       properties:
-        com.googleapis.cloudmarketplace.product.service.name: "virtual-career-center"
-        com.googleapis.cloudmarketplace.product.service.version: "1.0.1"
-        com.googleapis.cloudmarketplace.product.service.image: "gcr.io/xertica-vcc-public/virtual-career-center/vcc:1.0.1"
         vcc:
           type: FULL
     ubbagent:
       properties:
-        com.googleapis.cloudmarketplace.product.service.name: "ubbagent"
-        com.googleapis.cloudmarketplace.product.service.version: "1.0.1"
-        com.googleapis.cloudmarketplace.product.service.image: "gcr.io/xertica-vcc-public/ubbagent:1.0.1"
         ubbagent:
           type: FULL
 
@@ -46,7 +40,7 @@ properties:
     type: string
     x-google-marketplace:
       type: REPORTING_SECRET
-
+    
 required:
   - name
   - namespace
