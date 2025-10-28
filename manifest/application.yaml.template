@@ -16,7 +16,7 @@ metadata:
 spec:
   descriptor:
     type: "vcc"
-    version: "1.0.0"
+    version: "1.0.1"
     description: >-
       The Xertica Virtual Career Center is a cloud-based platform that uses Generative AI, Machine Learning, 
       and Natural Language Processing to improve student employability through:
@@ -93,3 +93,4 @@ spec:
       kind: Deployment
     - group: ""
       kind: Service
+
