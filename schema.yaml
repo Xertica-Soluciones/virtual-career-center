@@ -6,7 +6,7 @@ x-google-marketplace:
     releaseNote: >-
       Upgrade golang.org/x/crypto to v0.35.0.
     releaseTypes:
-      - Fix
+      - Feature
     recommended: true
     
   images:
